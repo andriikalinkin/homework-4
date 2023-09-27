@@ -11,7 +11,7 @@ fake = Faker()
 
 
 def index(request):
-    return HttpResponse("Hello, world! You're at the polls index.")
+    return HttpResponse("<h1>Homework-4 index page</h1>")
 
 
 def students(request):
