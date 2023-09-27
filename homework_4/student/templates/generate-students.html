@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Generate Student</title>
+</head>
+<body>
+    <h1>The students have been created and added to the database:</h1>
+    {% for student in students_list %}
+        <li>
+          {{ student.first_name }} {{ student.last_name }} - {{ student.birth_date }}
+        </li>
+    {% endfor %}
+</body>
+</html>
